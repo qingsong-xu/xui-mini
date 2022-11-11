@@ -1,0 +1,58 @@
+<view class="items">
+  <navigator url="/pages/components/banner/banner" hover-class="navigator-hover" class="plate-item">
+    <view class="item">
+      <image src="{{bannerLogoUrl}}"></image>
+      <text class="title">轮播图</text>
+    </view>
+  </navigator>
+
+  <navigator url="/pages/components/button" hover-class="navigator-hover" class="plate-item">
+    <view class="item">
+      <image src="{{buttonLogoUrl}}"></image>
+      <text class="title">按钮</text>
+    </view>
+  </navigator>
+
+  <navigator url="/pages/components/dialog" hover-class="navigator-hover" class="plate-item">
+    <view class="item">
+      <image src="{{dialogLogoUrl}}"></image>
+      <text class="title">对话框</text>
+    </view>
+  </navigator>
+
+  <navigator url="/pages/components/input" hover-class="navigator-hover" class="plate-item">
+    <view class="item">
+      <image src="{{inputLogoUrl}}"></image>
+      <text class="title">输入框</text>
+    </view>
+  </navigator>
+
+  <navigator url="/pages/components/grid/grid" hover-class="navigator-hover" class="plate-item">
+    <view class="item">
+      <image src="{{flowLogoUrl}}"></image>
+      <text class="title">九宫格布局</text>
+    </view>
+  </navigator>
+
+  <navigator url="/pages/components/image" hover-class="navigator-hover" class="plate-item">
+    <view class="item">
+      <image src="{{imgLogoUrl}}"></image>
+      <text class="title">图片</text>
+    </view>
+  </navigator>
+
+  <navigator url="/pages/components/dropdown" hover-class="navigator-hover" class="plate-item">
+    <view class="item">
+      <image src="{{spinnerLogoUrl}}"></image>
+      <text class="title">下拉框</text>
+    </view>
+  </navigator>
+
+  <navigator url="/pages/components/tab" hover-class="navigator-hover" class="plate-item">
+    <view class="item">
+      <image src="{{tabLogoUrl}}"></image>
+      <text class="title">选项卡</text>
+    </view>
+  </navigator>
+
+</view>

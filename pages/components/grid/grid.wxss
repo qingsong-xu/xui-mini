@@ -1,0 +1,32 @@
+/* pages/components/grid.wxss */
+.grid-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  box-sizing: border-box;
+  border-left: 1rpx solid #ccc;
+  border-top: 1rpx solid #ccc;
+}
+
+.grid-item{
+  display: flex;
+  flex-direction: column;
+  width: 33.33%;
+  height: 200rpx;
+  justify-content: center;
+  align-items: center;
+  border-right: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+  box-sizing: border-box;
+}
+
+.grid-item image{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.grid-item text{
+  margin-top: 10rpx;
+  font-size: 24rpx;
+}
+

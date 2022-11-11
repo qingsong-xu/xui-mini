@@ -1,0 +1,30 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}"    vertical="{{vertical}}"
+interval="{{interval}}"
+duration="{{duration}}"
+previous-margin="{{previousMargin}}px"
+next-margin="{{nextMargin}}px">
+
+ <block wx:for="{{images}}" wx:key="index" >
+  <swiper-item class="swiper-item">
+  <view class="swiper-item-images-container">
+   <image src="{{item}}" mode="aspectFill" class="swiper-item-images"/>
+  </view>
+  </swiper-item>
+ </block>
+</swiper>
+
+<swiper indicator-dots="true" 
+indicator-color="#ccc" 
+indicator-active-color="#00cccc" 
+autoplay="true" 
+duration="1000"
+interval="3000"
+circular="true"
+vertical="true"
+display-multiple-items="1"
+easing-function="easeInOutCubic"
+ >
+  <swiper-item class="swiper-item-images-container" wx:for="{{images}}" wx:key="index">
+    <image src="{{item}}" mode="aspectFill" class="swiper-item-images2" />
+  </swiper-item>
+</swiper>

@@ -1,0 +1,4 @@
+<view class="container-view">
+  <image ></image>
+  <image src="/resources/tfz.png" mode="widthFix"></image>
+</view>

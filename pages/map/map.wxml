@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="map-container">
+  <map
+      id="myMap"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      scale="14"
+      controls="{{controls}}"
+      show-location="true"
+      ></map>
+</view>
+<view class="btns">
+<view class="btn btn-publish">发布</view>
+<view class="btn btn-search">搜索</view>
+</view>

@@ -1,0 +1,6 @@
+<view class="grid-list">
+  <view class="grid-item" wx:for="{{gridlist}}" wx:key="id">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>

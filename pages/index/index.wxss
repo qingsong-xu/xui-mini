@@ -1,0 +1,32 @@
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  border-left: 1rpx solid #cccccc;
+  border-top: 1rpx solid #cccccc;
+}
+
+.plate-item{
+  background-color: white;
+  border-right: 1rpx solid #cccccc;
+  border-bottom: 1rpx solid #cccccc;
+  width: 33.33%;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.item image{
+  width: 30px;
+  height: 30px;
+}
+.title{
+  margin-top: 10px;
+}
