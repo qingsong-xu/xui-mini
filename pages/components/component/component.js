@@ -12,7 +12,8 @@ Component({
     myColor:{
       type:String,
       value:'0,0,0'
-    }
+    },
+    count:Number
   },
 
   /**
@@ -94,6 +95,10 @@ Component({
         },
       })
       console.log(this.data.fullColor)
+    },
+    addCount(){
+      this.setData({count:this.properties.count+1})
+      this.triggerEvent("sync",{re:this.properties.count})
     }
   },
   observers:{

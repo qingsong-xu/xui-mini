@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    count:8
   },
 
   /**
@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+
+  // 自定义方法，用于子组件向父组件传递的示例
+  syncCount(result){
+    console.log(result)
+    this.setData({count:result.detail.re})
   }
 })

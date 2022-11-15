@@ -1,9 +1,10 @@
 <!--pages/components/component/component.wxml-->
-<view class="container" 
+<!-- <view class="container" 
 style="background-color: rgb({{fullColor}});">颜色值：{{fullColor}}</view>
-
 <button size="mini" type="default" bindtap="changeR">R</button>
-
 <button size="mini" type="primary" bindtap="changeG">G</button>
+<button size="mini" type="warn" bindtap="changeB">B</button> -->
 
-<button size="mini" type="warn" bindtap="changeB">B</button>
+
+<view>子组件中的count和父组件的一样吗？ 子组件的count是：{{count}}</view>
+<button type="primary" bindtap="addCount">+1</button>

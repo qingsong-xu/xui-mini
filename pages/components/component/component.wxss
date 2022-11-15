@@ -7,9 +7,4 @@
   color:white;
   text-align: center;
   line-height: 200rpx;
-  position: absolute;
-  bottom: 0rpx;
-  left: 0rpx;
-  right:0rpx;
-  width:auto;
 }
