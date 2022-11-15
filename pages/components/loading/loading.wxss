@@ -1,0 +1,9 @@
+.color-item{
+  border: 1rpx solid #ccc;
+  line-height: 200rpx;
+  text-align: center;
+  margin: 10rpx;
+  border-radius: 10rpx;
+  text-shadow: 5rpx 5rpx 5rpx #fff;
+  box-shadow: 5rpx 5rpx 5rpx #ccc;
+}

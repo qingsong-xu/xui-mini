@@ -1,0 +1,8 @@
+// 定义外联的wxs脚本
+function toLower(str){
+ return str.toLowerCase();
+}
+
+module.exports = {
+  toLower:toLower
+}

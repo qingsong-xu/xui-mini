@@ -1,10 +1,13 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/expand/expand",
     "pages/login/login",
     "pages/logs/logs",
     "pages/components/banner/banner",
-    "pages/components/grid/grid"
+    "pages/components/grid/grid",
+    "pages/components/loading/loading",
+    "pages/components/map/map"
   ],
   "window":{
     "backgroundTextStyle":"dark",
@@ -22,7 +25,7 @@
       "iconPath": "/resources/icon_tabbar_component.png",
       "selectedIconPath": "/resources/icon_tabbar_component_selected.png"
     },{
-      "pagePath": "pages/login/login",
+      "pagePath": "pages/expand/expand",
       "text": "拓展",
       "iconPath": "/resources/icon_tabbar_expand.png",
       "selectedIconPath": "/resources/icon_tabbar_expand_selected.png"

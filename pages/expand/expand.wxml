@@ -1,0 +1,4 @@
+<!--pages/expand/expand.wxml-->
+<text>pages/expand/expand.wxml</text>
+<view></view>
+<component myColor="200,200,200"></component>

@@ -1,0 +1,15 @@
+/* pages/components/component/component.wxss */
+.container{
+  border: 1rpx solid #ccc;
+  height: 200rpx;
+  box-shadow: 1rpx 1rpx 5rpx #ccc;
+  margin: 15rpx;
+  color:white;
+  text-align: center;
+  line-height: 200rpx;
+  position: absolute;
+  bottom: 0rpx;
+  left: 0rpx;
+  right:0rpx;
+  width:auto;
+}

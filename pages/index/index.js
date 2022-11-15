@@ -7,8 +7,8 @@ Page({
     flowLogoUrl:'/resources/ic_widget_flowlayout.png',
     imgLogoUrl:'/resources/ic_widget_imageview.png',
     spinnerLogoUrl:'/resources/ic_widget_spinner.png',
-    tabLogoUrl:'/resources/ic_widget_tabbar.png'
-  
+    tabLogoUrl:'/resources/ic_widget_tabbar.png',
+    loadingLogoUrl:'/resources/ic_widget_loading.png'
   }
   
 })

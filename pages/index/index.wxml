@@ -55,4 +55,11 @@
     </view>
   </navigator>
 
+  <navigator url="/pages/components/loading/loading?title=加载刷新" hover-class="navigator-hover" class="plate-item">
+    <view class="item">
+      <image src="{{loadingLogoUrl}}"></image>
+      <text class="title">加载刷新</text>
+    </view>
+  </navigator>
+
 </view>
