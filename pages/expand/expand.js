@@ -68,5 +68,11 @@ Page({
   syncCount(result){
     console.log(result)
     this.setData({count:result.detail.re})
+  },
+
+  // 这里的方法名有讲究，不能取selectComponent，否则会出现一直回到导致steck溢出;其次注意selectComponent(".countComponent")参数是class或id的名字，别忘了.或#
+  myF(){
+      const child = this.selectComponent(".countComponent")
+      child.addCount()
   }
 })

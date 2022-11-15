@@ -1,4 +1,5 @@
 <!--pages/expand/expand.wxml-->
-<component count="{{count}}" bind:sync="syncCount"></component>
+<component count="{{count}}" bind:sync="syncCount" class="countComponent"></component>
 <view>~~~~~~</view>
 <view>父组件中的count值:{{count}}</view>
+<button type="warn" bindtap="myF">父组件使用selectComponent实现通讯</button>
